@@ -62,7 +62,7 @@ export default function About() {
           </div>
 
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[300px] sm:h-[400px] lg:h-[500px]">
               <Image
                 src="/laptophome.png"
                 alt="MANEO Salon Interior"
