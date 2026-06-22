@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Navbar from "./Navbar";
 
 export default function Hero() {
@@ -6,14 +7,22 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <picture className="absolute inset-0">
-        <source media="(min-width: 768px)" srcSet="/laptophome.png" />
-        <img
-          src="/phonehome.png"
-          alt="MANEO Salon"
-          className="w-full h-full object-cover"
-        />
-      </picture>
+      <Image
+        src="/laptophome.png"
+        alt="MANEO Salon"
+        fill
+        priority
+        className="object-cover hidden md:block"
+        sizes="100vw"
+      />
+      <Image
+        src="/phonehome.png"
+        alt="MANEO Salon"
+        fill
+        priority
+        className="object-cover block md:hidden"
+        sizes="100vw"
+      />
 
       <div className="absolute inset-0 bg-gradient-to-r from-dark/80 via-dark/50 to-dark/70" />
 

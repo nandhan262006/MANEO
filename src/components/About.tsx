@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Award, Star, Shield, Clock } from "lucide-react";
 
 const stats = [
@@ -62,10 +63,13 @@ export default function About() {
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="/laptophome.png"
                 alt="MANEO Salon Interior"
-                className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover"
+                fill
+                loading="lazy"
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
             </div>
