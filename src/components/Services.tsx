@@ -23,7 +23,7 @@ const services = [
     description:
       "Expert manicure and pedicure services with premium products for beautiful, healthy nails.",
     features: ["Manicure", "Pedicure", "Gel Nails", "Nail Art"],
-    image: "/laptophome.png",
+    image: "/nails.png",
   },
 ];
 
