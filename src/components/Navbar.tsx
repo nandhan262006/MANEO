@@ -31,7 +31,7 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-2 group">
             <Scissors className="w-6 h-6 text-gold group-hover:rotate-45 transition-transform duration-300" />
             <span className="text-2xl font-bold tracking-wider text-white">
-              MANEO
+              MANE<span className="text-maneo-o">O</span>
             </span>
           </a>
 
@@ -40,14 +40,14 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm uppercase tracking-[0.2em] text-white/80 hover:text-gold transition-colors duration-300"
+                className="text-sm uppercase tracking-[0.15em] text-white/80 hover:text-gold transition-colors duration-300"
               >
                 {link.label}
               </a>
             ))}
             <a
               href="tel:+919292055555"
-              className="flex items-center gap-2 bg-gold hover:bg-gold-dark text-dark font-semibold px-5 py-2.5 rounded-full transition-all duration-300 text-sm"
+              className="flex items-center gap-2 bg-gold hover:bg-gold-dark text-dark font-semibold px-4 py-2.5 rounded-full transition-all duration-300 text-xs sm:text-sm"
             >
               <Phone className="w-4 h-4" />
               +91 92920 55555

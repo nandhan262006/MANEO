@@ -34,12 +34,12 @@ export default function Footer() {
   return (
     <footer className="bg-dark border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-          <div className="sm:col-span-2 lg:col-span-1">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
               <Scissors className="w-5 h-5 text-gold" />
               <span className="text-xl font-bold tracking-wider text-white">
-                MANEO
+                MANE<span className="text-maneo-o">O</span>
               </span>
             </a>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">

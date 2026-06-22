@@ -133,7 +133,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-dark">Address</p>
-                    <p className="text-dark/60 text-sm mt-0.5">
+                    <p className="text-dark/60 text-xs sm:text-sm mt-0.5 break-words">
                       4th Floor, 59a-1-5/1, Beside Maris Stella College,
                       Beside Nissan Car Showroom, K P Nagar, Vijayawada, AP -
                       520008
@@ -179,16 +179,16 @@ export default function Contact() {
                 <p className="text-white/50 text-sm mb-5">
                   Join our newsletter for exclusive offers and beauty tips
                 </p>
-                <form className="flex gap-2">
+                <form className="flex flex-col sm:flex-row gap-2">
                   <input
                     type="email"
                     placeholder="Your email"
-                    className="flex-1 px-4 py-2.5 rounded-xl border border-white/10 bg-white/5 text-white placeholder:text-white/30 focus:outline-none focus:ring-2 focus:ring-gold/50 text-sm"
+                    className="w-full sm:flex-1 px-4 py-2.5 rounded-xl border border-white/10 bg-white/5 text-white placeholder:text-white/30 focus:outline-none focus:ring-2 focus:ring-gold/50 text-sm"
                     required
                   />
                   <button
                     type="submit"
-                    className="bg-gold hover:bg-gold-dark text-dark font-semibold px-5 py-2.5 rounded-xl transition-all text-sm whitespace-nowrap"
+                    className="w-full sm:w-auto bg-gold hover:bg-gold-dark text-dark font-semibold px-5 py-2.5 rounded-xl transition-all text-sm whitespace-nowrap"
                   >
                     Subscribe
                   </button>

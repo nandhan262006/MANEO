@@ -30,8 +30,8 @@ export default function Hero() {
             </span>
           </div>
 
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">
-            <span className="font-playfair">MANEO</span>
+          <h1 className="text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">
+            <span className="font-playfair">MANE<span className="text-maneo-o">O</span></span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-4 font-light max-w-2xl mx-auto">
@@ -42,16 +42,16 @@ export default function Hero() {
             Premium hair, skin &amp; nail services in a relaxing sanctuary
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <a
               href="#contact"
-              className="bg-gold hover:bg-gold-dark text-dark font-semibold px-8 py-3.5 rounded-full transition-all duration-300 text-base tracking-wide shadow-lg shadow-gold/20 hover:shadow-gold/30"
+              className="w-full sm:w-auto text-center bg-gold hover:bg-gold-dark text-dark font-semibold px-8 py-3.5 rounded-full transition-all duration-300 text-sm sm:text-base tracking-wide shadow-lg shadow-gold/20 hover:shadow-gold/30"
             >
               Book Appointment
             </a>
             <a
               href="#services"
-              className="border border-white/30 hover:border-gold/50 text-white hover:text-gold px-8 py-3.5 rounded-full transition-all duration-300 text-base tracking-wide backdrop-blur-sm"
+              className="w-full sm:w-auto text-center border border-white/30 hover:border-gold/50 text-white hover:text-gold px-8 py-3.5 rounded-full transition-all duration-300 text-sm sm:text-base tracking-wide backdrop-blur-sm"
             >
               Explore Services
             </a>

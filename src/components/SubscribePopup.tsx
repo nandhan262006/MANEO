@@ -26,7 +26,7 @@ export default function SubscribePopup() {
           setDismissed(true);
         }}
       />
-      <div className="relative bg-dark rounded-3xl p-8 sm:p-10 max-w-md w-full shadow-2xl border border-gold/20 animate-scale-in">
+      <div className="relative bg-dark rounded-3xl p-6 sm:p-10 max-w-md w-full shadow-2xl border border-gold/20 animate-scale-in mx-4">
         <button
           onClick={() => {
             setVisible(false);

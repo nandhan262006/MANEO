@@ -65,14 +65,14 @@ export default function About() {
               <img
                 src="/laptophome.png"
                 alt="MANEO Salon Interior"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
             </div>
 
-            <div className="absolute -bottom-6 -left-6 bg-gold text-dark p-6 rounded-2xl shadow-xl max-w-[200px]">
-              <div className="text-3xl font-bold">#1</div>
-              <div className="text-sm font-medium leading-tight mt-1">
+            <div className="absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 bg-gold text-dark p-4 sm:p-6 rounded-2xl shadow-xl max-w-[160px] sm:max-w-[200px]">
+              <div className="text-2xl sm:text-3xl font-bold">#1</div>
+              <div className="text-[10px] sm:text-sm font-medium leading-tight mt-1">
                 Best Unisex Salon in Vijayawada
               </div>
             </div>
