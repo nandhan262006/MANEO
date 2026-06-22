@@ -15,7 +15,7 @@ const services = [
     description:
       "Rejuvenating facials and advanced skincare treatments that leave your skin glowing and radiant.",
     features: ["Deep Cleansing", "Anti-Aging", "Gold Facial", "Glow Treatment"],
-    image: "/laptophome.png",
+    image: "/skin.png",
   },
   {
     icon: Hand,
