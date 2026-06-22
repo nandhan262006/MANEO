@@ -7,7 +7,7 @@ const services = [
     description:
       "From precision cuts to trendy colors and luxurious treatments, our stylists create the perfect look for you.",
     features: ["Precision Cuts", "Hair Coloring", "Keratin Treatment", "Styling"],
-    image: "/laptophome.png",
+    image: "/hair.png",
   },
   {
     icon: Sparkles,
