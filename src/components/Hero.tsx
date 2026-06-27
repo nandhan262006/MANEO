@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
 
           <h1 className="text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">
-            <span className="font-playfair">MANE<span className="text-maneo-o">O</span></span>
+            <span className="font-heading">MANE<span className="text-maneo-o">O</span></span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-4 font-light max-w-2xl mx-auto">
@@ -53,7 +53,9 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <a
-              href="#contact"
+              href="https://wa.me/919292055555?text=Hi%20MANEO%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto text-center bg-gold hover:bg-gold-dark text-dark font-semibold px-8 py-3.5 rounded-full transition-all duration-300 text-sm sm:text-base tracking-wide shadow-lg shadow-gold/20 hover:shadow-gold/30"
             >
               Book Appointment

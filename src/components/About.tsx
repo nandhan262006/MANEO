@@ -22,7 +22,7 @@ export default function About() {
             <span className="text-gold text-sm uppercase tracking-[0.25em] font-medium">
               About Us
             </span>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-4 mb-6 font-playfair leading-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-4 mb-6 font-heading leading-tight">
               Where Beauty Meets{" "}
               <span className="text-gold">Excellence</span>
             </h2>

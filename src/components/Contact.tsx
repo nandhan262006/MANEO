@@ -30,7 +30,7 @@ export default function Contact() {
           <span className="text-gold-dark text-sm uppercase tracking-[0.25em] font-medium">
             Get in Touch
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-dark mt-4 mb-4 font-playfair">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-dark mt-4 mb-4 font-heading">
             Book an Appointment
           </h2>
           <div className="w-20 h-0.5 bg-gold mx-auto" />
@@ -110,13 +110,15 @@ export default function Contact() {
                     placeholder="Tell us what you're looking for..."
                   />
                 </div>
-                <button
-                  type="submit"
-                  className="w-full bg-dark hover:bg-dark-soft text-white font-semibold py-3.5 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 group"
+                <a
+                  href="https://wa.me/919292055555?text=Hi%20MANEO%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-dark hover:bg-dark-soft text-white font-semibold py-3.5 rounded-xl transition-all duration-300 flex items-center justify-center gap-2 group text-center"
                 >
-                  Send Message
+                  Book on WhatsApp
                   <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+                </a>
               </form>
             )}
           </div>

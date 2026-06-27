@@ -11,8 +11,8 @@
   --color-dark-muted: #2a2a2a;
   --color-cream: #faf6f0;
   --color-maneo-o: #F7B520;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-montserrat);
+  --font-heading: var(--font-calistoga);
 }
 
 html {
@@ -24,7 +24,7 @@ html {
 body {
   background: var(--color-cream);
   color: var(--color-foreground);
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-montserrat);
   overflow-x: hidden;
   width: 100%;
 }

@@ -42,7 +42,7 @@ export default function SubscribePopup() {
           <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mx-auto mb-5">
             <Gift className="w-8 h-8 text-gold" />
           </div>
-          <h3 className="text-2xl font-bold text-white mb-2 font-playfair">
+          <h3 className="text-2xl font-bold text-white mb-2 font-heading">
             Get 10% Off
           </h3>
           <p className="text-white/50 text-sm mb-6">
@@ -56,6 +56,7 @@ export default function SubscribePopup() {
               e.preventDefault();
               setVisible(false);
               setDismissed(true);
+              window.open("https://wa.me/919292055555?text=Hi%20MANEO%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment", "_blank");
             }}
           >
             <input
@@ -74,7 +75,7 @@ export default function SubscribePopup() {
               type="submit"
               className="w-full bg-gold hover:bg-gold-dark text-dark font-semibold py-3 rounded-xl transition-all duration-300 text-sm"
             >
-              Subscribe &amp; Get 10% Off
+              Subscribe &amp; Book on WhatsApp
             </button>
           </form>
 

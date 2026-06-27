@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, Scissors } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -29,7 +29,6 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex items-center gap-2 group">
-            <Scissors className="w-6 h-6 text-gold group-hover:rotate-45 transition-transform duration-300" />
             <span className="text-2xl font-bold tracking-wider text-white">
               MANE<span className="text-maneo-o">O</span>
             </span>

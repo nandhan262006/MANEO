@@ -42,7 +42,7 @@ export default function Services() {
           <span className="text-gold-dark text-sm uppercase tracking-[0.25em] font-medium">
             Our Expertise
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-dark mt-4 mb-4 font-playfair">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-dark mt-4 mb-4 font-heading">
             Premium Services
           </h2>
           <div className="w-20 h-0.5 bg-gold mx-auto" />
@@ -98,7 +98,9 @@ export default function Services() {
                   </div>
 
                   <a
-                    href="#contact"
+                    href="https://wa.me/919292055555?text=Hi%20MANEO%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-gold-dark font-medium text-sm group/link"
                   >
                     Book Now
